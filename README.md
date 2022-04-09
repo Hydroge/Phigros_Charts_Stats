@@ -12,11 +12,24 @@ To summarize the information of every charts in Phigros.
 
 ## `Chart_Stats.py·` 使用方法
 
+谱面文件的格式为：一个文件夹，里面包含若干个.json格式的谱面文件。（如果要处理自制谱的话还请阁下自己修改代码了）
+
+譬如一个谱面文件是这样的格式：
+
+```
+Mobilys\
+    EZ-311-144.0.json
+    HD-530-144.0.json
+    IN-938-144.0.json
+    Mobilys.png
+    Mobilys.wav
+```
+
 首先确保自己的谱面文件是存放在一个文件夹内的。并且格式为`EZ-XXX-YYY.json`。
 
 其中`EZ`可以替换成`HD` `IN`等上文提到过的难度，`XXX`为物量，`YYY`为BPM，且不一定为3位数（这里程序会自动处理好）。
 
-然后就会生成一张关于谱面简要信息的`.csv`文件。
+那么所有.json的文件就是谱面文件。而该程序所做的就是将谱面文件的信息提取并生成一个.csv文件。
 
 ## `result.csv` 使用方法
 
