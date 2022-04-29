@@ -25,6 +25,7 @@ diffs = ['EZ', 'HD', 'IN', 'AT', 'LE', 'SP']        # 六大难度
 
 totalStats = []                                     # 待写入到文件的总数据
 
+'''
 def execute_files():
     currentPath = os.getcwd()                       # 获得脚本所在目录
     for _, dirs, _ in os.walk(currentPath):         # 遍历当前目录
@@ -54,6 +55,7 @@ def execute_files():
         f_csv = csv.DictWriter(f, headers)
         f_csv.writeheader()
         f_csv.writerows(totalStats)
+'''
 
 def execute_diffs():
     currentPath = os.getcwd()                                       # 获得脚本所在目录
@@ -86,8 +88,6 @@ def execute_diffs():
         f_csv.writerows(totalStats)
 
 if __name__ == "__main__":
-    method=input('''Please select the method. "f" means collect 
-    ''')
     initTime=time.time()
     execute_diffs()
     print("Running time: {0}".format(time.time()-initTime))
