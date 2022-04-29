@@ -10,7 +10,7 @@ To summarize the information of every charts in Phigros.
 
 若想添加难度，建议直接在文件名称前面添加`EZ-` `HD-` `IN-` `AT-` `LE-` `SP-`。或者在`.json`前面添加`-EZ`等。
 
-## `Chart_Stats.py·` 使用方法
+## `Chart_Stats.py` 使用方法
 
 谱面文件的格式为：一个文件夹，里面包含若干个.json格式的谱面文件。（如果要处理自制谱的话还请阁下自己修改代码了）
 
