@@ -53,6 +53,10 @@ Then all .json files are beatmap files. What the program does is to extract the 
 
 那么所有.json的文件就是谱面文件。而该程序所做的就是将全部谱面文件的信息提取并生成一个.csv文件。
 
+This program also supports .zip files right now. And it could summarize the detialed amounts of Tap, Drag, Hold and Flick.
+
+该程序现在支持.zip文件，且可以统计四种音符的数量。
+
 ## `result.csv` 使用方法 / Usage of `result.csv`
 
 This is the note amount and BPM that I have already summarized, for reference only. Since there are some beatmaps share the same note amount and BPM information, it is temporarily impossible to process the files automatically.
