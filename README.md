@@ -41,7 +41,7 @@ Mobilys\
 
 值得一提的是，由于有些歌对大多数用户难以输入，本表对其进行了改动。包括但不限于：
 
-- 某些简繁混搭的曲目将全部使用简体中文来表示（《華灯愛》——《华灯爱》）。
+- 某些简繁混搭的曲目将全部使用简体中文来表示（《華灯爱》——《华灯爱》）。
 - 过于复杂的歌名将只取前面几个单词（《Infinite Enerzy -Overdoze-》——《Infinite Enerzy》）。
 - 如果歌名是日文：
   - 带汉字的，将只取汉字部分（《雪降り、メリクリ》——《雪降》）。
@@ -97,7 +97,7 @@ This is the note amount and BPM that I have already summarized, for reference on
 
 Because the name of beatmaps can be in English, Chinese, Japanese and Greek, even in symbols. I would like to rename them myself, for people easier to look up the imformation of a specific beatmap.
 
-- Some mashups of simplified and traditional Chinese will be replaced to Simplified Chinese completely. e.g. 華灯愛 -> 华灯爱
+- Some mashups of simplified and traditional Chinese will be replaced to Simplified Chinese completely. e.g. 華灯爱 -> 华灯爱
 - Overcomplicated song titles will only be taken the first few words. e.g. Infinite Enerzy -Overdoze- -> Infinite Enerzy
 - If the title is mainly in Japanese:
   - If it includes Kanji, only Kanji will be considered. e.g. 雪降り、メリクリ -> 雪降
