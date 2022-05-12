@@ -59,7 +59,7 @@ Mobilys\
 
 # Phigros_Charts_Stats （English）
 
-**CAUTION: THIS DATASET IS APPLIED BY [Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)](https://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh).**
+**CAUTION: THIS DATASET IS APPLIED BY [Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)](https://creativecommons.org/licenses/by-nc-nd/3.0/).**
 
 To summarize the information of every beatmaps in Phigros, including BPM and note amount. Also, some tools are provided here, which can help you to extract beatmap files more easily.
 
