@@ -2,7 +2,7 @@
 
 ![](https://mirrors.creativecommons.org/presskit/buttons/80x15/png/by-nc-nd.png)
 
-**注意：本数据集遵循[署名-非商业性使用-禁止演绎 3.0 未本地化版本 (CC BY-NC-ND 3.0)](https://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh)协议。**
+**注意：本数据集遵循[署名-非商业性使用-禁止演绎 3.0 未本地化版本 (CC BY-NC-ND 3.0)](https://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh)协议。若转载、复制、发行本作品等，请附上原文出处链接及本声明。**
 
 本仓库总结了Phigros当中每个谱面的一些信息，包括BPM和物量。同时在这里也提供了一些方便扒谱的工具。
 
@@ -63,7 +63,7 @@ Mobilys\
 
 ![](https://mirrors.creativecommons.org/presskit/buttons/80x15/png/by-nc-nd.png)
 
-**CAUTION: THIS DATASET IS APPLIED BY [Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)](https://creativecommons.org/licenses/by-nc-nd/3.0/).**
+**CAUTION: THIS DATASET IS APPLIED BY [Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)](https://creativecommons.org/licenses/by-nc-nd/3.0/). If you copy, reproduce, distribute this work, etc., please attach a link to the original source and this statement.**
 
 To summarize the information of every beatmaps in Phigros, including BPM and note amount. Also, some tools are provided here, which can help you to extract beatmap files more easily.
 
