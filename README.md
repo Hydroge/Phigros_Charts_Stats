@@ -1,5 +1,7 @@
 # Phigros_Charts_Stats （中文）
 
+![](https://mirrors.creativecommons.org/presskit/buttons/80x15/png/by-nc-nd.png)
+
 **注意：本数据集遵循[署名-非商业性使用-禁止演绎 3.0 未本地化版本 (CC BY-NC-ND 3.0)](https://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh)协议。**
 
 本仓库总结了Phigros当中每个谱面的一些信息，包括BPM和物量。同时在这里也提供了一些方便扒谱的工具。
@@ -58,6 +60,8 @@ Mobilys\
 - - -
 
 # Phigros_Charts_Stats （English）
+
+![](https://mirrors.creativecommons.org/presskit/buttons/80x15/png/by-nc-nd.png)
 
 **CAUTION: THIS DATASET IS APPLIED BY [Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)](https://creativecommons.org/licenses/by-nc-nd/3.0/).**
 
