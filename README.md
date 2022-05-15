@@ -6,6 +6,8 @@
 
 本仓库总结了Phigros当中每个谱面的一些信息，包括BPM和物量。同时在这里也提供了一些方便扒谱的工具。
 
+想查看任何已经存在的谱面之变动，可以移步到`changes.md`文件中。
+
 如果有任何问题欢迎在答疑区（Issues）提出。
 
 祝扒谱快乐！
@@ -66,6 +68,8 @@ Mobilys\
 **CAUTION: THIS DATASET IS APPLIED BY [Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)](https://creativecommons.org/licenses/by-nc-nd/3.0/). If you copy, reproduce, distribute this work, etc., please attach a link to the original source and this statement.**
 
 To summarize the information of every beatmaps in Phigros, including BPM and note amount. Also, some tools are provided here, which can help you to extract beatmap files more easily.
+
+If you want to have a look at any changes of existing beatmaps, please check `changes.md`.
 
 If you have any problems, feel free to communicate in "Issues".
 
