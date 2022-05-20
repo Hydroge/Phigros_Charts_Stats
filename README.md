@@ -22,6 +22,8 @@
 
 ## `Chart_Stats.py` 使用方法 
 
+**现在该代码支持自定义谱面文件目录。**
+
 谱面文件的格式为：一个文件夹，里面包含若干个.json格式的谱面文件。（如果要处理自制谱的话还请阁下自己修改代码了）
 
 譬如一个谱面文件是这样的格式：
@@ -84,6 +86,8 @@ Then start the program, directly input the path and the number of beatmap files,
 If you want to add difficulty, it is recommended to add `EZ-` `HD-` `IN-` `AT-` `LE-` `SP-` directly before the file name. Or add `-EZ` in front of `.json`, etc.
 
 ## Usage of `Chart_Stats.py`
+
+**Right now this program has supported customized path of beatmaps.**
 
 The format of the beatmap file is: a folder containing several beatmap files in .json format. (If you want to deal with fanmade beatmaps, please modify the source code yourself)
 
