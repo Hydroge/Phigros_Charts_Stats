@@ -29,8 +29,9 @@ diffs = ['EZ', 'HD', 'IN', 'AT', 'LE', 'SP']        # 六大难度
 
 totalStats = []                                     # 待写入到文件的总数据
 
-def execute_folders():
-    currentPath = os.getcwd()                                       # 获得脚本所在目录
+def execute_folders(target):
+    #currentPath = os.getcwd()                                       # 获得脚本所在目录
+    currentPath = target
     for _, dirs, _ in os.walk(currentPath):                         # 遍历当前目录
         for dir in dirs:                                            # 遍历每一个子目录，其实就是访问一个个歌曲文件夹
             currentSubPath = os.path.join(currentPath, dir)                     # 设定子目录
@@ -94,13 +95,14 @@ def execute_folders():
         f_csv.writerow(headers)
         f_csv.writerows(totalStats)
 
-def execute_zips():
-    currentPath = os.getcwd()
-
+def execute_zips(target):
+   #currentPath = os.getcwd()
+    currentPath = target
     for _, _, files in os.walk(currentPath):
         for file in files:  #打开当前文件夹的zip文件
-            if zipfile.is_zipfile(file):    #检验是不是zip文件
-                with zipfile.ZipFile(file, 'r') as z:   #打开zip文件
+            filePath = currentPath + os.sep + file
+            if zipfile.is_zipfile(filePath):    #检验是不是zip文件
+                with zipfile.ZipFile(filePath, 'r') as z:   #打开zip文件
                     nameList = z.namelist()     #压缩文件内的文件名目录
                     for diff in diffs:          #按照难度进行排序
                         beatmap_gotten = False  #是否得到当前难度的谱面？
@@ -164,7 +166,10 @@ def execute_zips():
         f.close()
 
 if __name__ == "__main__":
+    #debug__=os.getcwd()
     _method = '0'
+    targetPath = input("Beatmap Path 谱面目录:")
+
     while _method not in ['f', 'F', 'z', 'Z']:
         _method = input('''
 Please type the method of extracting beatmap files.
@@ -175,9 +180,9 @@ This program is not case-sensitive.
 
     initTime=time.time()
     if _method in ['f', 'F']:
-        execute_folders()
+        execute_folders(targetPath)
     elif _method in ['Z', 'z']:
-        execute_zips()
+        execute_zips(targetPath)
     print("Found {0} beatmaps.".format(len(totalStats)))
     print("Running time: {0}".format(time.time()-initTime))
     
