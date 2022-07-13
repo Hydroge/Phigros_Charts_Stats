@@ -51,6 +51,8 @@ def execute_folders(target):
                             chartData.append(dataString[0])
                             chartData.append(dataString[1])
 
+                            #这里本来要对Demiurge的BPM作特殊调整，但考虑到本人整合信息的时候不使用文件夹形式，因此不在这里赘述代码了。#
+
                             '''
                             以上操作是通过读取文件名的方式获取谱面的物量和初始BPM信息，接下来的部分是获取每个谱面的详细物量
                             也就是Tap, Drag, Hold, Flick这四种音符各自有多少个
@@ -117,10 +119,17 @@ def execute_zips(target):
                             beatmap_gotten = True
                             chartData = []
                             chartData.append(file.replace(".zip", ''))  #曲名取自zip文件的压缩包名
+
+                            __songname = file.replace(".zip", '') #取曲名，可能会有特殊条件
+
                             chartData.append(diff)
                             dataString = fileInsideName[3:-5]
                             dataString = dataString.split('-')
                             chartData.append(dataString[0])
+
+                            if __songname == "Demiurge":        # Demiurge 的BPM随谱面难度不同而不同，需要格外注意。
+                                dataString[1] = "111"
+
                             chartData.append(dataString[1])
 
                             with z.open(fileInside, mode="r") as f:
